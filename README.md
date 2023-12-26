@@ -6,20 +6,20 @@ A new Flutter project.
 
 **Open Terminal**
 
-# flutter clean
-# flutter pub get
-# flutter pub run build_runner build --delete-conflicting-outputs
+**flutter clean**
+**flutter pub get**
+**flutter pub run build_runner build --delete-conflicting-outputs**
 
 **Folder Structure**
 
 **/Features**
-# Contains App UI 
-# Contains Common Widgets
+**Contains App UI**
+**Contains Common Widgets**
 
 **/Package**
-# Contains App Api Configuration and handling 
-# Contains api entity and helper entity
+**Contains App API configuration and handling**
+**Contains api entity and helper entity**
 
 **/routes**
-# App routing configuration
-# Routing Path
+**App routing configuration**
+**Routing Path**
