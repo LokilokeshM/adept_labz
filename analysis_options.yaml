@@ -1,0 +1,46 @@
+# This file configures the analyzer, which statically analyzes Dart code to
+# check for errors, warnings, and lints.
+#
+# The issues identified by the analyzer are surfaced in the UI of Dart-enabled
+# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
+# invoked from the command line by running `flutter analyze`.
+
+# The following line activates a set of recommended lints for Flutter apps,
+# packages, and plugins designed to encourage good coding practices.
+include: package:flutter_lints/flutter.yaml
+analyzer:
+  errors:
+    undefined_prefixed_name: ignore
+    missing_return: error
+    avoid_empty_else: error
+    invalid_assignment: warning
+    dead_code: info
+    constant_identifier_names: ignore
+    non_constant_identifier_names: ignore
+linter:
+  rules:
+    # avoid_print: false  # Uncomment to disable the `avoid_print` rule
+    # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+    - avoid_print: true
+    - unnecessary_new: true
+    - unnecessary_brace_in_string_interps: true
+    - avoid_type_to_string: true
+    - type_annotate_public_apis: true
+    - prefer_is_not_empty: true
+    - prefer_is_empty: true
+    - upper_snake_constant_identifiers: false
+    - prefer_initializing_formals: true
+    - tighten_type_of_initializing_formals: true
+    - avoid_types_as_parameter_names: true
+    - close_sinks: true
+    - control_flow_in_finally: true
+    - empty_statements: true
+    - no_duplicate_case_values: true
+    - no_logic_in_create_state: true
+    - prefer_void_to_null: true
+    - unnecessary_statements: true
+    - unrelated_type_equality_checks: true
+    - prefer_final_in_for_each: true
+    - curly_braces_in_flow_control_structures: true
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
